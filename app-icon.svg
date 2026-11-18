@@ -1,8 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffbe56" />
+      <stop offset="1" stop-color="#ee6812" />
+    </linearGradient>
+  </defs>
   <g transform="translate(-46.5455 -46.5455) scale(23.27273)">
-    <rect x="2" y="2" width="44" height="44" rx="12" fill="#60cdff" />
-    <path d="M14 13v22M14 24h10M24 13v22" stroke="#003042" stroke-width="4.4" stroke-linecap="round" fill="none" />
-    <path d="M31 17.5c3.2 0 5.5 2.6 5.5 6.5S34.2 30.5 31 30.5" stroke="#003042" stroke-width="4" stroke-linecap="round" fill="none" />
-    <path d="m33.5 9.5 5.5 3.2-5.5 3.2Z" fill="#003042" />
+    <rect x="2" y="2" width="44" height="44" rx="11" fill="url(#amber)" />
+    <text x="24" y="31.5" text-anchor="middle"
+          font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="700"
+          font-size="20" letter-spacing="0.4" fill="#ffffff">HG</text>
   </g>
 </svg>
